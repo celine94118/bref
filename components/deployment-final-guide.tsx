@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Github, Rocket, LinkIcon, Download, ExternalLink } from "lucide-react"
+import { Github, Rocket, Link2, Download, ExternalLink } from "lucide-react"
 
 const URL_DE_VOTRE_DEPOT = "https://github.com/your-repo-url"
 
@@ -134,7 +134,7 @@ export default function DeploymentFinalGuide() {
               </li>
             </ol>
             <Button className="w-full bg-yellow-600 hover:bg-yellow-700">
-              <LinkIcon className="w-4 h-4 mr-2" />
+              <Link2 className="w-4 h-4 mr-2" />
               Accéder à mon site (après déploiement)
             </Button>
             <p className="text-sm text-gray-400">
