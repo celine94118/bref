@@ -1,7 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Icon } from 'lucide-react';
-import { Icon } from 'lucide-react';
+import { Github, Rocket, LinkIcon, Download, ExternalLink } from "lucide-react"
 
 const URL_DE_VOTRE_DEPOT = "https://github.com/your-repo-url"
 
